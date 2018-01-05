@@ -18,12 +18,13 @@ Find regexes that match the following.
 
 	  boat
 
-* Regex that matches dates in YYYY-MM-DD format
+* Regex that matches dates in YYYY-MM-DD format. This does not need to
+  verify the date is correct.
 
     2000-10-12
 	1999-1-20
 	1999-01-20
-
+	812-2-10
 
 ## State Machines
 
