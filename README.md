@@ -1,2 +1,3 @@
-# Sprint-Challenge--Theory-Algorithms
-Sprint challenge for Theory of Computation and Algorithms
+# Sprint Challenge: Theory of Computation and Algorithms
+
+* [Theory of Computation](theory/)
