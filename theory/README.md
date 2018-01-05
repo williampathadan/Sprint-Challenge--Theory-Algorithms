@@ -29,7 +29,7 @@ Find regexes that match the following.
 
 * Draw a state machine that corresponds to the following regex:
 
-    ab*c+d?[ef]
+      ab*c+d?[ef]
 
   Remember the ε transition can be used to move between states without
   consuming input. 
