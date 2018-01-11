@@ -6,25 +6,25 @@ Find regexes that match the following.
 
 * Regex that matches:
 
-      antelope
-	  antelopes
+    antelope
+    antelopes
 
 * Regex that matches:
 
-      goat
-	  moat
+    goat
+    moat
 
-	but not 
+  but not 
 
-	  boat
+    boat
 
 * Regex that matches dates in YYYY-MM-DD format. This does not need to
   verify the date is correct.
 
-    2000-10-12
-	1999-1-20
-	1999-01-20
-	812-2-10
+  2000-10-12
+  1999-1-20
+  1999-01-20
+  812-2-10
 
 ## State Machines
 
@@ -55,8 +55,7 @@ Find regexes that match the following.
   * Come up with regexes for the two above sequences. The one to set the
     cursor position should accept any digits for the row and column. The
     bold sequence need only accept `1` (and is a trivial regex). (ESC is
-    a single character, but feel free to write ESC--we'll know what you
-    mean.)
+    a single character which can be represented with `\e` in the regex.)
 
   * Draw a state machine diagram for a VT-100 that can consume regular
     character sequences as well as the two above ESC sequences.
