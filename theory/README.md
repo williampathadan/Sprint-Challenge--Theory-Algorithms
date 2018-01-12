@@ -2,7 +2,8 @@
 
 ## Regular Expressions
 
-Find regexes that match the following.
+Find regexes that match the following. (E.g. find a single regex that matches
+both `antelope` and `antelopes`.)
 
 * Regex that matches:
 
