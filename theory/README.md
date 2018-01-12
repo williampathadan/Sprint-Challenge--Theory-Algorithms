@@ -28,6 +28,9 @@ Find regexes that match the following.
 
 ## State Machines
 
+> A useful tool for drawing state machines is [Evan's FSM
+> Designer](http://madebyevan.com/fsm/).
+
 * Draw a state machine that corresponds to the following regex:
 
       ab*c+d?[ef]
